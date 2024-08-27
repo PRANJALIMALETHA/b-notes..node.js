@@ -1,0 +1,27 @@
+
+IS THE STANDARD PACAKAGE MANAGER FOR node.JS
+(NODE PACKAGE MANAGER)
+LIBRARY OF PACAKGE 
+cOMMAND lINE tOOL
+
+
+type npm and all the commands will be shown
+
+figletDir
+const figlet=require("figlet");
+figlet("Curiosity & Kindness",function( err, data)
+{
+    if(err){
+        console.log("something  went wrong");
+        console.log(err);
+        return;
+    }
+    console.log(data);
+});
+
+  ____                   _       _ _   __  __       _      _   _
+ |  _ \ _ __ __ _ _ __  (_) __ _| (_) |  \/  | __ _| | ___| |_| |__   __ _
+ | |_) | '__/ _` | '_ \ | |/ _` | | | | |\/| |/ _` | |/ _ \ __| '_ \ / _` |
+ |  __/| | | (_| | | | || | (_| | | | | |  | | (_| | |  __/ |_| | | | (_| |
+ |_|   |_|  \__,_|_| |_|/ |\__,_|_|_| |_|  |_|\__,_|_|\___|\__|_| |_|\__,_|
+                      |__/
