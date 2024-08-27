@@ -1,0 +1,47 @@
+ Fruits Folder-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                apple.js
+                  module.exports={
+                  name:"apple.js",
+                   color:"red",
+                    }
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                 Banana.js 
+                   module.exports={
+                   name:"banana",
+                    color :"yellow",
+                   }
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+              index.js
+               const apple=require("./apple");
+               const banana=require("./banana");
+               const orange=require("./orange");
+
+               let fruits=[apple ,banana,orange];
+
+                  :module.exports= fruits;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+             orange.js
+               module.exports={
+               name:"orange.js",
+               color:"orange",
+              }
+
+
+
+
+
+script.js 
+const info=require("./fruit");
+console.log(info);
+
+
+
+
+output
+PS C:\Users\pranj\OneDrive\Documents\backened4kill> node script.js
+[
+  { name: 'apple.js', color: 'red' },
+  { name: 'banana', color: 'yellow' },
+  { name: 'orange.js', color: 'orange' }
+]
