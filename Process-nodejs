@@ -1,0 +1,30 @@
+.exit to came out from node
+
+
+PS C:\Users\pranj\OneDrive\Documents\backened4kill> node script.js
+PS C:\Users\pranj\OneDrive\Documents\backened4kill> node script.js
+[
+  'C:\\Program Files\\nodejs\\node.exe',
+  'C:\\Users\\pranj\\OneDrive\\Documents\\backened4kill\\script.js'
+]
+
+
+in script.js
+
+console.log(process.argv);
+
+
+
+
+second ways   Using this special properties
+
+let a=process.argv;
+for(let i=2;i<a.length;i++)
+{
+    console.log("hello to ",a[i]);
+}
+
+S C:\Users\pranj\OneDrive\Documents\backened4kill> node script.js  pranjali sakshi payal
+hello to  pranjali
+hello to  sakshi
+hello to  payal
